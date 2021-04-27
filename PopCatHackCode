@@ -1,1 +1,20 @@
-
+var event = new KeyboardEvent('keydown',{
+key: 'g',
+ctrlKey: true
+});
+ 
+setInterval(function(){
+for (i = 0; i < 1000; i++) {
+document.dispatchEvent(event);
+}
+}, 0)  
+/*
+1.Copy every thing here even this message.
+2.go to pop cat.
+3.right click.
+4.click inspect.
+5.go to console on the top.
+6.paste the code.
+7.click enter.
+8.enjoy:)
+*/
